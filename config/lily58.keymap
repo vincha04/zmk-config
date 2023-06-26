@@ -13,9 +13,19 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        gaming {
             bindings = <&tog 3>;
             key-positions = <50 51 52>;
+        };
+
+        bootloader1 {
+            bindings = <&bootloader>;
+            key-positions = <17 5 29>;
+        };
+
+        bootloader2 {
+            bindings = <&bootloader>;
+            key-positions = <6 18 30>;
         };
     };
 
